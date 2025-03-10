@@ -21,9 +21,9 @@ module.exports = {
     },
     nodes: [
         {
-            host: process.env.NODE_HOST || "",
-            port: parseInt(process.env.NODE_PORT || ""),
-            password: process.env.NODE_PASSWORD || "",
+            host: process.env.NODE_HOST || "180.188.226.76:",
+            port: parseInt(process.env.NODE_PORT || "7019"),
+            password: process.env.NODE_PASSWORD || "enteryourcustompass",
             secure: parseBoolean(process.env.NODE_SECURE || "false"),
         }
     ],
