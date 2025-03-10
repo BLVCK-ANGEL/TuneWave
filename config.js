@@ -21,9 +21,9 @@ module.exports = {
     },
     nodes: [
         {
-            host: process.env.NODE_HOST || "neko.pylex.xyz",
-            port: parseInt(process.env.NODE_PORT || "10068"),
-            password: process.env.NODE_PASSWORD || "youshallnotpass",
+            host: process.env.NODE_HOST || "node3.garvv.me",
+            port: parseInt(process.env.NODE_PORT || "1102"),
+            password: process.env.NODE_PASSWORD || "incolnx.com",
             secure: parseBoolean(process.env.NODE_SECURE || "false"),
         }
     ],
