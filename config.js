@@ -21,9 +21,9 @@ module.exports = {
     },
     nodes: [
         {
-            host: process.env.NODE_HOST || "node3.garvv.me",
-            port: parseInt(process.env.NODE_PORT || "1102"),
-            password: process.env.NODE_PASSWORD || "incolnx.com",
+            host: process.env.NODE_HOST || "",
+            port: parseInt(process.env.NODE_PORT || ""),
+            password: process.env.NODE_PASSWORD || "",
             secure: parseBoolean(process.env.NODE_SECURE || "false"),
         }
     ],
